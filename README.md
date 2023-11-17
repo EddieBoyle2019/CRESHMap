@@ -21,3 +21,11 @@ https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/scottis
 Exports a CSV file with datazones and retail outlet densities
 
 R Tidyverse
+
+##### alcohol_data_2023.R
+
+Uses CSV data sourced from the Police Scotland InnKeepers Database
+
+Exports a CSV file with datazones and retail outlet counts
+
+R Tidyverse
