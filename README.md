@@ -2,9 +2,15 @@
 
 Various scripts used for processing data for the CRESHMap application
 
+##### tobacco_scraper.py
+
+Harvests data from https://www.tobaccoregisterscotland.org/ using Python Requests
+
+Exports a CSV file with details of all tobacco retail outlets in Scotland with postcode
+
 ##### tobacco_data_2023.R
 
-Uses CSV data from the Python webscraper script that harvests data from https://www.tobaccoregisterscotland.org/
+Uses CSV data from tobacco_scraper.py
 
 Uses NRS data:
 
