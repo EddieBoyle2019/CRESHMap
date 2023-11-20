@@ -33,3 +33,15 @@ https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/scottis
 Exports a CSV file with datazones and retail outlet counts
 
 R Tidyverse
+
+##### alcohol_data_densities.R
+
+Use CSV data from alcohol_data_2023.R
+
+Uses NRS data:
+
+https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/small-area-population-estimates-2011-data-zone-based/mid-2021
+
+Exports a CSV file with datazones and retail outlet densities
+
+R Tidyverse
