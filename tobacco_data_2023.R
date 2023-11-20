@@ -8,7 +8,7 @@ library(tidyverse)
 data_tobacco <- read_delim("TobaccoRegister_10-26-2023.csv", delim = "|")
 #NRS SPD data ('Small User' CSV; postcodes -> datazone 2011 code)
 data_nrs_spd <- read_csv("SmallUser.csv")
-#NRD SAPE 2021 data (extracted from larger Excel spreadsheet)
+#NRS SAPE 2021 data (CSV extracted from larger Excel spreadsheet)
 data_nrs_sap <- read_csv("sape-2021.csv")
 
 ## Transform data
