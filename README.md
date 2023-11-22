@@ -52,6 +52,6 @@ Uses CSV data from alcohol_data_densities.R and tobacco_data_2023.R
 
 Uses CSV Data from existing 'master' CRESHMap data file
 
-Exports a CSV with four new columms for alcohol (3 types) and tobacco 2024 densities added to the 'master' CRESHMap data file
+Exports a CSV with five new columns for NRS 2021 datazone populations, alcohol densities (3 types), and tobacco 2024 densities, added to the 'master' CRESHMap data file
 
 R Tidyverse
