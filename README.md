@@ -8,13 +8,13 @@ Harvests data from https://www.tobaccoregisterscotland.org/ using Python Request
 
 Exports a CSV file with details of all tobacco retail outlets in Scotland with postcode
 
-##### tobacco_data_2023.R
+##### tobacco_data_2024.R
 
 Uses CSV data from tobacco_scraper.py
 
 Uses NRS data:
 
-https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/scottish-postcode-directory/2023-2
+https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/scottish-postcode-directory/2024-1
 
 https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/small-area-population-estimates-2011-data-zone-based/mid-2021
 
