@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# This project is a test application of web scraping techniques to access and download all registered tobacco retailers in Scotland based on the register hosted here:
+# Python script for web scraping all registered tobacco retailers in Scotland based on the register hosted here:
 # https://www.tobaccoregisterscotland.org/
 
 ##Import required libraries
@@ -19,11 +16,10 @@ headers = ['Date of Query', 'Time of Query', 'Name', 'Address', 'Postcode', 'Loc
 
 #Then the filename and path
 file = "TobaccoRegister_{}.csv".format(datetime.now().strftime("%m-%d-%Y"))
-path = "/home/pi/RaspberryPiStorage/Data/TobaccoRegisterData/{}"
 
 #Then create the blank file with the column headers
-with open(path.format(file), "w") as filename:
-    our_writer = csv.writer(filename, delimiter = "|")
+with open(file, "w", encoding='utf-8', newline='') as filename:
+    our_writer = csv.writer(filename, delimiter = "|", lineterminator=os.linesep)
     our_writer.writerow(headers)
 
 #Collect the total results on the page
@@ -93,8 +89,8 @@ for PageNumber in range(1,int(total_results/20)+2):
     rows = zip(date, time, premise_names, addresses, postcodes, local_authorities, types, products_solds, company_names, statuses)
 
     #Append the rows to the bottom of our csv
-    with open(path.format(file), "a") as filename:
-        writer = csv.writer(filename, delimiter ='|')
+    with open(file, "a", encoding='utf-8', newline='') as filename:
+        writer = csv.writer(filename, delimiter ='|', lineterminator=os.linesep)
         for row in rows:
             writer.writerow(row)
             
