@@ -153,3 +153,27 @@ Uses CSV Data from existing 'master' CRESHMap data file
 Exports a CSV with two new columns for smoking 2024 densities (Tobacco and Nicotine Vapour), added to the 'master' CRESHMap data file
 
 R Tidyverse
+
+##### tobacco_data_2020.R
+
+Uses CSV data from tobacco_scraper.py
+
+Uses NRS data:
+
+https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/scottish-postcode-directory/archived-postcode-extract/2020-2
+
+https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/small-area-population-estimates-2011-data-zone-based/mid-2020
+
+Exports a CSV file with datazones and retail outlet densities
+
+R Tidyverse
+
+##### Datazones_TimeSeriesData_6.R
+
+Uses CSV data from tobacco_data_2020.R
+
+Uses CSV Data from existing 'master' CRESHMap data file
+
+Exports a CSV with two new columns for smoking 2020 densities (Tobacco and Nicotine Vapour), added to the 'master' CRESHMap data file
+
+R Tidyverse
